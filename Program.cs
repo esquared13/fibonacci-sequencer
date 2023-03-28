@@ -8,13 +8,13 @@ namespace fibonaccifinder
         public static void Main()
         {
             Console.Write("Enter the desired length of the Fibonacci Sequence...");
-            int n = Convert.ToInt32(Console.ReadLine()); //sets length of sequence, represented by the variable n, to user input
+            ulong n = Convert.ToUInt64(Console.ReadLine()); //sets length of sequence, represented by the variable n, to user input
 
-            int f = 1; 
-            int q = 0;
-            int s = 0;
+            ulong f = 1; 
+            ulong q = 0;
+            ulong s = 0;
 
-            for (int i = 0; i <= n;)
+            for (ulong i = 0; i <= n;)
             {
                 q = f + s;
                 i++;
