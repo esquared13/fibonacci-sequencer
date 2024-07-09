@@ -1,0 +1,2 @@
+#fibonacci-sequencer
+I wrote this program to automate a task and spent much more time on it than it would have taken to do by hand, but I wanted to put my C# skills to the test.  I made this for a project management class, oddly enough, where I was required to create a list of tasks that were numbered and incremented as a Fibonacci Sequence in order to add tasks in between the existing ones later.  
